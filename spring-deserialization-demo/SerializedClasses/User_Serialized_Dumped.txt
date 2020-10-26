@@ -1,0 +1,52 @@
+
+STREAM_MAGIC - 0xac ed
+STREAM_VERSION - 0x00 05
+Contents
+  TC_OBJECT - 0x73
+    TC_CLASSDESC - 0x72
+      className
+        Length - 65 - 0x00 41
+        Value - com.example.deserialization.springdeserializationdemo.Models.User - 0x636f6d2e6578616d706c652e646573657269616c697a6174696f6e2e737072696e67646573657269616c697a6174696f6e64656d6f2e4d6f64656c732e55736572
+      serialVersionUID - 0x9b c6 05 32 dd 0a a7 75
+      newHandle 0x00 7e 00 00
+      classDescFlags - 0x02 - SC_SERIALIZABLE
+      fieldCount - 2 - 0x00 02
+      Fields
+        0:
+          Object - L - 0x4c
+          fieldName
+            Length - 14 - 0x00 0e
+            Value - avatarFileName - 0x61766174617246696c654e616d65
+          className1
+            TC_STRING - 0x74
+              newHandle 0x00 7e 00 01
+              Length - 18 - 0x00 12
+              Value - Ljava/lang/String; - 0x4c6a6176612f6c616e672f537472696e673b
+        1:
+          Object - L - 0x4c
+          fieldName
+            Length - 8 - 0x00 08
+            Value - username - 0x757365726e616d65
+          className1
+            TC_REFERENCE - 0x71
+              Handle - 8257537 - 0x00 7e 00 01
+      classAnnotations
+        TC_ENDBLOCKDATA - 0x78
+      superClassDesc
+        TC_NULL - 0x70
+    newHandle 0x00 7e 00 02
+    classdata
+      com.example.deserialization.springdeserializationdemo.Models.User
+        values
+          avatarFileName
+            (object)
+              TC_STRING - 0x74
+                newHandle 0x00 7e 00 03
+                Length - 13 - 0x00 0d
+                Value - peter225.jpeg - 0x70657465723232352e6a706567
+          username
+            (object)
+              TC_STRING - 0x74
+                newHandle 0x00 7e 00 04
+                Length - 5 - 0x00 05
+                Value - Peter - 0x5065746572
