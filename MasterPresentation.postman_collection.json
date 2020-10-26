@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "b4a8842b-10f8-4320-b655-54b5fc429b42",
+		"name": "MasterPresentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User_ProfilePicture",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {}
+				},
+				"url": {
+					"raw": "localhost:8080/profilePicture",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profilePicture"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GarbageCollect",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/garbagecollect",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garbagecollect"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listStatistics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/profilePicture",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profilePicture"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
